@@ -79,9 +79,9 @@ WSGI_APPLICATION = 'ChatApp.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'имя базы данных',
-        'USER': 'ваш логин',
-        'PASSWORD': 'ваш пароль',
+        'NAME': '',
+        'USER': '',
+        'PASSWORD': '',
         'HOST': '', # Set to empty string for localhost.
         'PORT': '', # Set to empty string for default.
     }
